@@ -421,3 +421,88 @@ SYSCALL_DEFINE2(getgroups, int, gidsetsize, gid_t __user *, grouplist)
 			goto out;
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+error: value too long for type character varying(32)
+    at Connection.parseE (/node2/auth-refactoring/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/node2/auth-refactoring/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/node2/auth-refactoring/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
